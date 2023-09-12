@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+    <h1><B><center>INTERNATIONAL STUDENT</center></B></h1>
+    <h2><b><center>Application form</center></b></h2>
+    <form action=".PHP" novalidate>
+    <fieldset>
+       <legend>personal information</legend>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" value=""><br><br>
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="date">DOB</label>
+            <input type="date" id="date" name="date" value="">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" value=""><br>   
+            <label for="phone">Contact no</label>
+         <input type="tel" id="phone" name="phone" value="">
+         <label for="blood">Blood group</label>
+         <input type="text" id="blood" name="blood" value=""><br><br>
+         <label for="address">Address</label>
+         <textarea name="address" id="" cols="0" rows="0"></textarea><br><br>
+         <label for="GName">Guardian</label>
+         <input type="text" id="GName" name="GName" value=""><br><br>
+         <label for="Fname">Father</label>
+         <input type="text" id="fname" name="fname" value=""><br><br>
+         <label for="mname">Mother</label>
+         <input type="text" id="mname" name="mname" value=""><br><br>
+         <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male">male
+         <input type="radio" name="gender" value="female">female <br><br>
+         <label for="mail">Mail Id</label>
+         <input type="email" name="mail" id="mail" value=""><br><br>
+         <label for="status">Status:</label>
+         <input type="radio" name="status" value="single">Mingle
+         <input type="radio" name="status" value="married">Married
+         <input type="radio" name="status" value="devorced">Devorced <br><br>
+         <label for="religion">Religion</label>
+         <select name="religion" id="religion">
+            <option value="christian">christian</option>
+            <option value="islam">islam</option>
+            <option value="hindu">hindu</option>
+         </select><br><br>
+         <label for="mark">Identity mark</label>
+         <input type="text" id="mark" name="mark" value=""><br><br>
+         <fieldset>
+            <legend>Course Information</legend><br><br>
+            <label for="passed">Year of Passed</label>
+            <select name="passed" id="passed">
+            <option value="2021">2021</option>
+            <option value="2000">2000</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            </select><br><br>
+            <label for="class">which class:</label><br>
+            <label for="class"> SSLC</label>
+         <input type="checkbox" id="class" name="class" value="SSLC"><br><br>
+         <label for="class">+One</label>
+          <input type="checkbox" id="class" name="class" value="plus one"><br><br>
+          <label for="class">+Two</label>
+          <input type="checkbox" id="class" name="class" value="plus two"><br><br>
+          <label for="class">Degree</label>
+          <input type="checkbox" id="class" name="class" value="degree"><br><br>
+          <label for="class">PG</label>
+          <input type="checkbox" id="class" name="class" value="PG"><br><br>
+          <label for="passed">Course</label>
+          <select name="passed" id="course">
+          <option value="bsc computer science">bsc</option>
+          <option value="bca">bca</option>
+          <option value="BSW">bsw</option>
+          <option value="BTTM">bttm</option>
+          <option value="BA ENGLISH">ba englsh</option>
+          </select><br><br>
+  </fieldset>
+  <input type="submit">
+
+ </form>
+</body>
+</html>
